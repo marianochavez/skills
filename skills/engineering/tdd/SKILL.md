@@ -44,7 +44,7 @@ RIGHT (vertical):
 
 ### 1. Planning
 
-When exploring the codebase, use the project's domain glossary so that test names and interface vocabulary match the project's language, and respect ADRs in the area you're touching.
+When exploring the codebase, use the project's domain glossary so that test names and interface vocabulary match the project's language, and respect ADRs in the area you're touching. To find `CONTEXT.md` and the ADR directory, follow the resolution algorithm in [../setup-matt-pocock-skills/resolve-config.md](../setup-matt-pocock-skills/resolve-config.md) — they may live in the repo or in a personal Obsidian vault depending on how the user configured this repo.
 
 Before writing any code:
 

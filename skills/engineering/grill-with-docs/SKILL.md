@@ -17,6 +17,8 @@ If a question can be answered by exploring the codebase, explore the codebase in
 
 ## Domain awareness
 
+Resolve where `CONTEXT.md` and the ADR directory live for this repo using [../setup-matt-pocock-skills/resolve-config.md](../setup-matt-pocock-skills/resolve-config.md). They may live in the repo or in a personal Obsidian vault — read from and write to whichever location the resolved config points at. When a `CONTEXT.md` or ADR file needs to be created lazily, create it at that resolved location, not at the default repo-root path.
+
 During codebase exploration, also look for existing documentation:
 
 ### File structure

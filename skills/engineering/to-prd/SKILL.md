@@ -5,7 +5,7 @@ description: Turn the current conversation context into a PRD and publish it to 
 
 This skill takes the current conversation context and codebase understanding and produces a PRD. Do NOT interview the user — just synthesize what you already know.
 
-The issue tracker and triage label vocabulary should have been provided to you — run `/setup-matt-pocock-skills` if not.
+Before doing anything else, resolve the per-repo config (issue tracker + triage labels + domain docs) using the algorithm in [../setup-matt-pocock-skills/resolve-config.md](../setup-matt-pocock-skills/resolve-config.md). If it can't be resolved, tell the user to run `/setup-matt-pocock-skills` and stop.
 
 ## Process
 

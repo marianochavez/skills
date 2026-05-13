@@ -7,6 +7,8 @@ description: Find deepening opportunities in a codebase, informed by the domain 
 
 Surface architectural friction and propose **deepening opportunities** — refactors that turn shallow modules into deep ones. The aim is testability and AI-navigability.
 
+Before exploring, resolve where `CONTEXT.md` and the ADR directory live for this repo using [../setup-matt-pocock-skills/resolve-config.md](../setup-matt-pocock-skills/resolve-config.md). They may live in the repo or in a personal Obsidian vault — read from and write to whichever location the resolved config points at.
+
 ## Glossary
 
 Use these terms exactly in every suggestion. Consistent language is the point — don't drift into "component," "service," "API," or "boundary." Full definitions in [LANGUAGE.md](LANGUAGE.md).
